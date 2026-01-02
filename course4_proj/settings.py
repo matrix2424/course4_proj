@@ -79,7 +79,9 @@ class Dev(Configuration):
         'django.contrib.staticfiles',
         "movies",
         "gh",
-        "django_celery_results"
+        "django_celery_results",
+        "django_celery_beat"
+
     ]
 
     CELERY_RESULT_BACKEND = "django-db"
